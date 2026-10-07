@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.2.0</title>
+            <pubDate>Wed, 07 Oct 2026 19:35:46 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>32000</sparkle:version>
+            <sparkle:shortVersionString>3.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.2.0</h2><pre>Flow 3.2 adds automatic parallel request tuning. Large resumable downloads compare measured throughput up to 16 requests, favor fewer requests on speed plateaus, and recheck after two minutes. Saved bytes remain intact while the remaining ranges are repartitioned. Bandwidth-limited downloads skip trials, and retryable failures lower the connection ceiling.
+
+The UI shows the active connection count with Auto; priority menus remain stable during refreshes.
+
+Developer preview: Apple Developer ID signing and notarization are pending. macOS may block opening it. Do not disable system security.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.2.0-preview.1/Flow-3.2.0-preview.1.zip" length="4395184" type="application/octet-stream" sparkle:edSignature="Xq/oL6TRXn4t4tR2qreufUVZo484LEROAkHW1O8ndkjIYDgZ1KNhw62ND74nZ5b5JcKD808lAabv0+/BA/tcDg=="/>
+        </item>
+        <item>
             <title>3.1.1</title>
             <pubDate>Wed, 07 Oct 2026 19:14:44 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -33,6 +49,6 @@ Developer preview: Apple Developer ID signing and notarization are pending. macO
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: s+Xa9pNj5wGqUU6mTjne9hRz86WrFF50cDOORklEN2KDG0MkzqLkyC7do0iCqXstg+xWFSvHBEofUTRpr5x+CQ==
-length: 2623
+edSignature: GF5L7mzesu44XsRjEuzgVPUhxv53bovG4ayXN6suTu0KL+LZSiAU2y4OlksRFjhEGOs537jDFiKFPiXpTGsOAA==
+length: 4049
 -->
