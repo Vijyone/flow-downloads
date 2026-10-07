@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>FlowDownload</title>
+        <item>
+            <title>3.1.0</title>
+            <pubDate>Wed, 07 Oct 2026 18:55:19 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>31000</sparkle:version>
+            <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.1.0</h2><p>Signed automatic updates, Intel and Apple Silicon builds, and download-safe update installation.</p><p>Developer preview: Apple signing and notarization pending.</p>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.1.0-preview.1/Flow-3.1.0-preview.1.zip" length="4370168" type="application/octet-stream" sparkle:edSignature="JLCh7oPN1BQSk4TDg0cesD6zmUWmzVZ/weN2bVWKKtoLrITB4Q1FAnHelbkdWsbXVvTv7MPKsa927cVU0TCCCw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: qb0v8TwpmDbGmMYJ0VvgPh28wHsqtkxKaCCo9F3Hn70mfjuGKbALknZXAaNrcJiz/ZN/q8HBVCnFDeT9gqY5BA==
+length: 1431
+-->
