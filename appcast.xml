@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.6.3</title>
+            <pubDate>Thu, 08 Oct 2026 15:09:58 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>36300</sparkle:version>
+            <sparkle:shortVersionString>3.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.6.3</h2><pre>Flow 3.6.3 — Keep Chrome capture connected
+
+Flow repairs its existing Chrome native bridge registration on launch, pointing to the current app even after an old copy or alias is removed. Registration resolves symlinks to avoid stale alias paths.
+
+The extension checks the bridge when its popup opens and reports connection and capture status. Successful automatic captures clear old error badges. Browser downloads remain available if the handoff fails.
+
+Developer preview: Apple signing and notarization remain pending.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.3-preview.1/Flow-3.6.3-preview.1.zip" length="2086029" type="application/octet-stream" sparkle:edSignature="zXwQg0wQupoH/JgRIFv5UlGeg54yB690Ft3qD1NxiRVhssSkMMLMqWQ5yKsJFYgvw94YGO8EIlPk80aO3h63Ag=="/>
+        </item>
+        <item>
             <title>3.6.2</title>
             <pubDate>Thu, 08 Oct 2026 12:46:38 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -37,27 +55,9 @@ Developer preview: Apple signing and notarization remain pending.
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.1-preview.1/Flow-3.6.1-preview.1.zip" length="2050705" type="application/octet-stream" sparkle:edSignature="3ku0yF/6iqbVnS17oiG936wotvCAtstfYjMhrUSDOb0imhIDM+6K54JiU9cqiT7hLq8n3/2OLs0afxWJ8GveCA=="/>
         </item>
-        <item>
-            <title>3.6.0</title>
-            <pubDate>Thu, 08 Oct 2026 12:29:14 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>36000</sparkle:version>
-            <sparkle:shortVersionString>3.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.6.0</h2><pre>Flow 3.6.0 — Finish without rebuilding the download
-
-New downloads write each connection directly into one file at its final byte offset. Completion flushes and renames that file; it does not copy all segments into another full-size file.
-
-Durable offset checkpoints support pause, process crash recovery, automatic connection tuning, expired-link refresh, and moving to another disk. Storage moves copy and verify only saved byte ranges rather than reading untouched sparse holes. Existing segmented downloads retain their tested assembly and recovery path.
-
-Developer preview: Apple signing and notarization remain pending.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.0-preview.1/Flow-3.6.0-preview.1.zip" length="4654618" type="application/octet-stream" sparkle:edSignature="XbJABiAfPYqkaMbdHHDoUCeeR2v7oHdpBd91VVTS2yH/oV4fLBo3j4y5jpt5hBpSgMZ5yUFb5/MwoCGB4sJbBQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: CANvbm7uN/VHoeF+K0vr6Ljm5hPipQhwy6dySm1+C+xS89B4cSSyuIA02/v/aN4tdNIQGbjxOTdbt67pp9BOCw==
-length: 4229
+edSignature: bknBfQ/shnIvaFAPuYjasKdVlbu83ZEbp/1uejxoDvrbd7iNbVhY9d1yOfA7jPFBWUV7F60YahdeUdveLjscBg==
+length: 4124
 -->
