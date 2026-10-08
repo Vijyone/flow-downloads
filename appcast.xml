@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.6.2</title>
+            <pubDate>Thu, 08 Oct 2026 12:46:38 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>36200</sparkle:version>
+            <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.6.2</h2><pre>Flow 3.6.2 — Glide identity
+
+The selected Glide mark replaces the download-arrow icon: two tapered graphite forms on a porcelain tile, suggesting smooth movement. The vector artwork is used consistently across the app, Chrome extension, website and installer.
+
+Developer preview: Apple signing and notarization remain pending.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.2-preview.1/Flow-3.6.2-preview.1.zip" length="2081124" type="application/octet-stream" sparkle:edSignature="LHlBKfK1ze7pSvC+eA74kWRz8Xn6+Fs6N8lpNfVIoW+m3AHqR8rC8oYapoYCP8helQSWMyKeYTxWXL3WoNvqDA=="/>
+        </item>
+        <item>
             <title>3.6.1</title>
             <pubDate>Thu, 08 Oct 2026 12:33:23 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -39,27 +55,9 @@ Developer preview: Apple signing and notarization remain pending.
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.0-preview.1/Flow-3.6.0-preview.1.zip" length="4654618" type="application/octet-stream" sparkle:edSignature="XbJABiAfPYqkaMbdHHDoUCeeR2v7oHdpBd91VVTS2yH/oV4fLBo3j4y5jpt5hBpSgMZ5yUFb5/MwoCGB4sJbBQ=="/>
         </item>
-        <item>
-            <title>3.5.0</title>
-            <pubDate>Thu, 08 Oct 2026 09:57:28 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>35000</sparkle:version>
-            <sparkle:shortVersionString>3.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.5.0</h2><pre>Flow 3.5.0 — Refresh expired download links
-
-Refresh link… checks a fresh address and resumes saved segments. Paste a replacement URL or choose Use next Chrome link, then send the same file through the Flow Chrome extension. Expired/access-denied errors point to this action.
-
-File size, resume support and the original server validator must match. A rejected address leaves saved parts untouched. Refreshed downloads also preserve parts if the server later changes identity or stops honoring ranges. Servers that change validators require a fresh download; Flow will not merge unverified files.
-
-Developer preview: Apple signing and notarization remain pending.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.5.0-preview.1/Flow-3.5.0-preview.1.zip" length="4634773" type="application/octet-stream" sparkle:edSignature="V9wIkLeO8GR0JTgIuqN5HbteGAiVD4Zo11i45WulTFx+GgTzaG+bwSzfhIDccksejYPQ+q642w5e//uVPwRPCw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: mnkHn+Gp6Xyu6onm7rmwMu1jRu5+aRZ9YtujoMPPjkDngd3qt7eSuYCa2eEf2VrSdTiQqoBiLW2y0PZWStB8Dg==
-length: 4567
+edSignature: CANvbm7uN/VHoeF+K0vr6Ljm5hPipQhwy6dySm1+C+xS89B4cSSyuIA02/v/aN4tdNIQGbjxOTdbt67pp9BOCw==
+length: 4229
 -->
