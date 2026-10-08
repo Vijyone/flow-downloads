@@ -6,6 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.4.0</title>
+            <pubDate>Thu, 08 Oct 2026 09:27:02 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>34000</sparkle:version>
+            <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.4.0</h2><pre>Flow 3.4 — Compact interface and storage recovery
+
+- Compact IDM-inspired toolbar, download table, sidebar and connection view with native Mac controls.
+- Move an unfinished download to another disk, verify its saved parts, then resume and finish on that disk.
+- New downloads keep their parts beside the chosen destination.
+- Space-efficient, resumable assembly: APFS and sparse-capable disks release source chunks as they are safely written; other disks release completed segments one at a time.
+- Single-stream downloads finish with a rename, without a second full-file copy.
+- Complete saved parts finish offline, even if the original link has expired.
+- Failed moves preserve originals; disconnected or replaced storage pauses safely.
+
+Developer preview: Apple signing and notarization pending.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.4.0-preview.1/Flow-3.4.0-preview.1.zip" length="4597172" type="application/octet-stream" sparkle:edSignature="WbZuBQnh9j/CNnR3REXL6SVB6jx+F+kp/eBk+up0Pv6epD+JIcworCHsv/WWvn9rKdOOltka1CjsCuvDy4UWBw=="/>
+        </item>
+        <item>
             <title>3.3.0</title>
             <pubDate>Wed, 07 Oct 2026 19:55:31 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -37,23 +59,9 @@ Developer preview: Apple Developer ID signing and notarization are pending. macO
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.2.0-preview.1/Flow-3.2.0-preview.1.zip" length="4395184" type="application/octet-stream" sparkle:edSignature="Xq/oL6TRXn4t4tR2qreufUVZo484LEROAkHW1O8ndkjIYDgZ1KNhw62ND74nZ5b5JcKD808lAabv0+/BA/tcDg=="/>
         </item>
-        <item>
-            <title>3.1.1</title>
-            <pubDate>Wed, 07 Oct 2026 19:14:44 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>31001</sparkle:version>
-            <sparkle:shortVersionString>3.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.1.1</h2><pre>Flow 3.1.1 fixes priority menus closing or blinking during download speed/progress refreshes. Native menus retain their items and selection while open. Menu-bar actions also remain stable, and speed/progress text uses stable widths.
-
-Developer preview: Apple Developer ID signing and notarization are pending. macOS may block opening it. Do not disable system security.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.1.1-preview.1/Flow-3.1.1-preview.1.zip" length="4377125" type="application/octet-stream" sparkle:edSignature="67p26iz+0vDMFyT4QchTA2JdB/HirYvnPg3xe+XkTAzEthp2jGeTZBSP6xvkYbdSohAuuVhytBJcQGq6iP88Cw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: OkMbU1tsVNlIiDnky2b+RmFvpZruoWY1wcOiIG3cSW0eoy4IkZJcFOK29X6ya+K2izCDmmC+muyH9nhfy4eXAA==
-length: 4462
+edSignature: UaiyN6VDYV4SAxN6ouqePii/REHHlMqPuu+hp3m2ZQWV8xoxwWjKAEmjQQmuM8wmAGBJVaVx1ZTxIfiQYUgYDg==
+length: 4894
 -->
