@@ -6,6 +6,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.6.4</title>
+            <pubDate>Thu, 08 Oct 2026 15:15:57 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>36400</sparkle:version>
+            <sparkle:shortVersionString>3.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.6.4</h2><pre>Flow 3.6.4 preserves the filename provided by Chrome, including spaces and file extensions. Browser capture connection repairs and popup status are included.
+
+Developer preview: Apple signing and notarization pending.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.4-preview.1/Flow-3.6.4-preview.1.zip" length="2093686" type="application/octet-stream" sparkle:edSignature="ET5oLB9ZgKdxeXRUNTsou6Joj11HftBtscQMVTS/k8SJ/PSSgAa/B7FyVrBgSTVMe5r0wjBIe1Eq3h5LBUs2Bw=="/>
+        </item>
+        <item>
             <title>3.6.3</title>
             <pubDate>Thu, 08 Oct 2026 15:09:58 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -39,25 +53,9 @@ Developer preview: Apple signing and notarization remain pending.
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.2-preview.1/Flow-3.6.2-preview.1.zip" length="2081124" type="application/octet-stream" sparkle:edSignature="LHlBKfK1ze7pSvC+eA74kWRz8Xn6+Fs6N8lpNfVIoW+m3AHqR8rC8oYapoYCP8helQSWMyKeYTxWXL3WoNvqDA=="/>
         </item>
-        <item>
-            <title>3.6.1</title>
-            <pubDate>Thu, 08 Oct 2026 12:33:23 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>36100</sparkle:version>
-            <sparkle:shortVersionString>3.6.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.6.1</h2><pre>Flow 3.6.1 — A simpler icon
-
-A new minimal graphite download mark on a soft white tile replaces the glossy purple logo. The same artwork is used for the Mac app, sidebar, Chrome extension and installer. The original vector source and a reproducible icon renderer are included.
-
-Developer preview: Apple signing and notarization remain pending.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.1-preview.1/Flow-3.6.1-preview.1.zip" length="2050705" type="application/octet-stream" sparkle:edSignature="3ku0yF/6iqbVnS17oiG936wotvCAtstfYjMhrUSDOb0imhIDM+6K54JiU9cqiT7hLq8n3/2OLs0afxWJ8GveCA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: bknBfQ/shnIvaFAPuYjasKdVlbu83ZEbp/1uejxoDvrbd7iNbVhY9d1yOfA7jPFBWUV7F60YahdeUdveLjscBg==
-length: 4124
+edSignature: Q+JHRv1lKltfa4gVZmW3WtI20JyBaQvOC9+1alokIxRReScJ4FtDOT3hGNIIgO9CFjUW6NtilbFYGdkPpOoGAw==
+length: 3996
 -->
