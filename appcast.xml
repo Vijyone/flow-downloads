@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.5.0</title>
+            <pubDate>Thu, 08 Oct 2026 09:57:28 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>35000</sparkle:version>
+            <sparkle:shortVersionString>3.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.5.0</h2><pre>Flow 3.5.0 — Refresh expired download links
+
+Refresh link… checks a fresh address and resumes saved segments. Paste a replacement URL or choose Use next Chrome link, then send the same file through the Flow Chrome extension. Expired/access-denied errors point to this action.
+
+File size, resume support and the original server validator must match. A rejected address leaves saved parts untouched. Refreshed downloads also preserve parts if the server later changes identity or stops honoring ranges. Servers that change validators require a fresh download; Flow will not merge unverified files.
+
+Developer preview: Apple signing and notarization remain pending.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.5.0-preview.1/Flow-3.5.0-preview.1.zip" length="4634773" type="application/octet-stream" sparkle:edSignature="V9wIkLeO8GR0JTgIuqN5HbteGAiVD4Zo11i45WulTFx+GgTzaG+bwSzfhIDccksejYPQ+q642w5e//uVPwRPCw=="/>
+        </item>
+        <item>
             <title>3.4.1</title>
             <pubDate>Thu, 08 Oct 2026 09:31:56 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -51,25 +69,9 @@ Developer preview: Apple signing and notarization pending.
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.4.0-preview.1/Flow-3.4.0-preview.1.zip" length="4597172" type="application/octet-stream" sparkle:edSignature="WbZuBQnh9j/CNnR3REXL6SVB6jx+F+kp/eBk+up0Pv6epD+JIcworCHsv/WWvn9rKdOOltka1CjsCuvDy4UWBw=="/>
         </item>
-        <item>
-            <title>3.3.0</title>
-            <pubDate>Wed, 07 Oct 2026 19:55:31 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>33000</sparkle:version>
-            <sparkle:shortVersionString>3.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.3.0</h2><pre>Flow 3.3 adds an expandable connection inspector: a colored file-position map and per-segment progress bars, bytes, speeds, ranges and statuses. Active requests are shown separately from queued or completed segments. Connection rows retain stable positions as Auto retunes.
-
-Traffic already below a configured bandwidth limit no longer incurs unnecessary pacing pauses. Transfer integrity, pause/resume, crash recovery and stable menus are verified.
-
-Developer preview: Apple signing and notarization pending. macOS may block opening it. Do not disable system security.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.3.0-preview.1/Flow-3.3.0-preview.1.zip" length="4469340" type="application/octet-stream" sparkle:edSignature="5GkERgDykBrRG4xoHtoavczUNI5hPTfRuvLUy2JEbW2SQ5HTgnyfllmpiSSnsgBC48bTuFms+OhVGGBy7FuOCA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: lTP/vLGP5QTf0VyQzw8j33Zhdt4C3uJz2wRiGoy3XGWjw5IOKvRKtY3KLwk8iYX7tqi56BOstmknt6F2p/pDDQ==
-length: 5196
+edSignature: 3ung+2l58ERhqvc8a6kurLeuh2ND2wC4i3eXU89eAPKj8vF7GqAb1/ZSsYijqTEqZ0I3inQR+u9s4ZUPPZQuAQ==
+length: 5293
 -->
