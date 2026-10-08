@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.6.1</title>
+            <pubDate>Thu, 08 Oct 2026 12:33:23 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>36100</sparkle:version>
+            <sparkle:shortVersionString>3.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.6.1</h2><pre>Flow 3.6.1 — A simpler icon
+
+A new minimal graphite download mark on a soft white tile replaces the glossy purple logo. The same artwork is used for the Mac app, sidebar, Chrome extension and installer. The original vector source and a reproducible icon renderer are included.
+
+Developer preview: Apple signing and notarization remain pending.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.1-preview.1/Flow-3.6.1-preview.1.zip" length="2050705" type="application/octet-stream" sparkle:edSignature="3ku0yF/6iqbVnS17oiG936wotvCAtstfYjMhrUSDOb0imhIDM+6K54JiU9cqiT7hLq8n3/2OLs0afxWJ8GveCA=="/>
+        </item>
+        <item>
             <title>3.6.0</title>
             <pubDate>Thu, 08 Oct 2026 12:29:14 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -41,33 +57,9 @@ Developer preview: Apple signing and notarization remain pending.
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.5.0-preview.1/Flow-3.5.0-preview.1.zip" length="4634773" type="application/octet-stream" sparkle:edSignature="V9wIkLeO8GR0JTgIuqN5HbteGAiVD4Zo11i45WulTFx+GgTzaG+bwSzfhIDccksejYPQ+q642w5e//uVPwRPCw=="/>
         </item>
-        <item>
-            <title>3.4.1</title>
-            <pubDate>Thu, 08 Oct 2026 09:31:56 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>34100</sparkle:version>
-            <sparkle:shortVersionString>3.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.4.1</h2><pre>Flow 3.4.1 — Compact interface and storage recovery
-
-- Compact IDM-inspired toolbar, download table, sidebar and connection view with native Mac controls.
-- Move an unfinished download to another disk, verify its saved parts, then resume and finish on that disk.
-- New downloads keep their parts beside the chosen destination.
-- Space-efficient, resumable assembly: APFS and sparse-capable disks release source chunks as they are safely written; other disks release completed segments one at a time.
-- Single-stream downloads finish with a rename, without a second full-file copy.
-- Complete saved parts finish offline, even if the original link has expired.
-- Failed moves preserve originals; disconnected or replaced storage pauses safely.
-
-Developer preview: Apple signing and notarization pending.
-
-Clearer storage error messages and compatible capacity checks on the hosted build toolchain.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.4.1-preview.1/Flow-3.4.1-preview.1.zip" length="4598501" type="application/octet-stream" sparkle:edSignature="2sCehc9n4ey1+YbPs4+nCHp8KapHqlivNR/lGVuFevq9ZRE6qOAfQh/MS0cdAzpgrnV3l5yXfXITApONKkNODA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: VLXr8ug1zaKgr6EzV05cM6ZkdV39h85iM/f8rn6IhX6lhIIchcDSDUyG4PFWo64kaRoQVVqSIAyvU4j4IVHpCQ==
-length: 5119
+edSignature: mnkHn+Gp6Xyu6onm7rmwMu1jRu5+aRZ9YtujoMPPjkDngd3qt7eSuYCa2eEf2VrSdTiQqoBiLW2y0PZWStB8Dg==
+length: 4567
 -->
