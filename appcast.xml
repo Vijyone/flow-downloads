@@ -6,6 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.8.0</title>
+            <pubDate>Fri, 09 Oct 2026 23:07:14 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>38000</sparkle:version>
+            <sparkle:shortVersionString>3.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.8.0</h2><pre>Flow 3.8.0 adds named download queues with independent start/stop controls, daily windows, concurrency limits and safe reassignment. Existing history migrates into Main queue; queue operations preserve partial bytes and manually paused downloads.
+
+Rolling payload quotas persist usage across restarts and resume queued files when allowance renews. Available periods are 24 hours, 7 days and 30 days. In-flight data can slightly exceed the allowance; accounting uses conservative one-minute buckets.
+
+Download networking now supports macOS system proxies, direct connections, explicit HTTP proxies and SOCKS5 endpoints. Credentials and authenticated proxies are not implemented yet. Changes apply to new/resumed transfers.
+
+Website link discovery offers bounded static-page traversal, extension filters, a selectable preview and a saved project. It does not yet render JavaScript pages or mirror websites for offline use.
+
+Browser setup adds Edge and a Firefox development package alongside Chrome. Firefox permanent installation requires Mozilla signing; Safari integration, browser-session authentication, and streaming playlist downloads remain pending. No additional Chrome permissions are requested.
+
+Developer preview: Apple signing and notarization pending.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.8.0-preview.1/Flow-3.8.0-preview.1.zip" length="2412721" type="application/octet-stream" sparkle:edSignature="8pApYvDNpU2AfjtaUJUkt17hp1ND1VTWzqn2zrzBD25035bdNlUlWuiucM8Ko0K0q5dybRNLW3PDBMPpXnOcBg=="/>
+        </item>
+        <item>
             <title>3.7.0</title>
             <pubDate>Fri, 09 Oct 2026 21:07:20 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -35,27 +57,9 @@ Developer preview: Apple signing and notarization pending.
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.4-preview.1/Flow-3.6.4-preview.1.zip" length="2093686" type="application/octet-stream" sparkle:edSignature="ET5oLB9ZgKdxeXRUNTsou6Joj11HftBtscQMVTS/k8SJ/PSSgAa/B7FyVrBgSTVMe5r0wjBIe1Eq3h5LBUs2Bw=="/>
         </item>
-        <item>
-            <title>3.6.3</title>
-            <pubDate>Thu, 08 Oct 2026 15:09:58 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>36300</sparkle:version>
-            <sparkle:shortVersionString>3.6.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.6.3</h2><pre>Flow 3.6.3 — Keep Chrome capture connected
-
-Flow repairs its existing Chrome native bridge registration on launch, pointing to the current app even after an old copy or alias is removed. Registration resolves symlinks to avoid stale alias paths.
-
-The extension checks the bridge when its popup opens and reports connection and capture status. Successful automatic captures clear old error badges. Browser downloads remain available if the handoff fails.
-
-Developer preview: Apple signing and notarization remain pending.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.3-preview.1/Flow-3.6.3-preview.1.zip" length="2086029" type="application/octet-stream" sparkle:edSignature="zXwQg0wQupoH/JgRIFv5UlGeg54yB690Ft3qD1NxiRVhssSkMMLMqWQ5yKsJFYgvw94YGO8EIlPk80aO3h63Ag=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Hiqus0x84cRbBrn03Bw84mYL5VZA5Tnz7injssvcJbtvsE/xku5olUEQMmoXpDz1CInUJ6lhuij8ACXmRv5jDw==
-length: 4217
+edSignature: MhyECWHR2eeVPlx1BYGSgkn6r9bsKQfhjgKD+hBP3VS93mRqMIH/i9ht399q4tdgpQ25xlZwyOzA0f+RO5tbBw==
+length: 4958
 -->
