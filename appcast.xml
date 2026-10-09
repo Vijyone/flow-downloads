@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.7.0</title>
+            <pubDate>Fri, 09 Oct 2026 21:07:20 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>37000</sparkle:version>
+            <sparkle:shortVersionString>3.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.7.0</h2><pre>Flow 3.7.0 fixes GET-only signed download URLs that reject HEAD requests, including APKMirror. It also adds dynamic redistribution of unfinished byte ranges, configurable connection and queue concurrency, download properties with safe filename editing and notes, and text-file link import/export. The default remains eight connections and automatic reductions are disabled.
+
+Chrome extension 2.2.0 adds optional file-type capture filters and site exclusions without additional permissions.
+
+Developer preview: Apple signing and notarization pending.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.7.0-preview.1/Flow-3.7.0-preview.1.zip" length="2151774" type="application/octet-stream" sparkle:edSignature="xLaHZLYtbqvfpbscvt10nihCXlzJxu+Tg+VCbZcKQG3VO6bsNSXeScOmwojLbf5FP+wAbgWUCv+f1UGf1mNpBw=="/>
+        </item>
+        <item>
             <title>3.6.4</title>
             <pubDate>Thu, 08 Oct 2026 15:15:57 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -37,25 +53,9 @@ Developer preview: Apple signing and notarization remain pending.
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.3-preview.1/Flow-3.6.3-preview.1.zip" length="2086029" type="application/octet-stream" sparkle:edSignature="zXwQg0wQupoH/JgRIFv5UlGeg54yB690Ft3qD1NxiRVhssSkMMLMqWQ5yKsJFYgvw94YGO8EIlPk80aO3h63Ag=="/>
         </item>
-        <item>
-            <title>3.6.2</title>
-            <pubDate>Thu, 08 Oct 2026 12:46:38 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>36200</sparkle:version>
-            <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.6.2</h2><pre>Flow 3.6.2 — Glide identity
-
-The selected Glide mark replaces the download-arrow icon: two tapered graphite forms on a porcelain tile, suggesting smooth movement. The vector artwork is used consistently across the app, Chrome extension, website and installer.
-
-Developer preview: Apple signing and notarization remain pending.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.2-preview.1/Flow-3.6.2-preview.1.zip" length="2081124" type="application/octet-stream" sparkle:edSignature="LHlBKfK1ze7pSvC+eA74kWRz8Xn6+Fs6N8lpNfVIoW+m3AHqR8rC8oYapoYCP8helQSWMyKeYTxWXL3WoNvqDA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Q+JHRv1lKltfa4gVZmW3WtI20JyBaQvOC9+1alokIxRReScJ4FtDOT3hGNIIgO9CFjUW6NtilbFYGdkPpOoGAw==
-length: 3996
+edSignature: Hiqus0x84cRbBrn03Bw84mYL5VZA5Tnz7injssvcJbtvsE/xku5olUEQMmoXpDz1CInUJ6lhuij8ACXmRv5jDw==
+length: 4217
 -->
