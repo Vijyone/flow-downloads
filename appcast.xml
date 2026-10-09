@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.8.1</title>
+            <pubDate>Fri, 09 Oct 2026 23:10:07 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>38001</sparkle:version>
+            <sparkle:shortVersionString>3.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.8.1</h2><pre>Flow 3.8.1 adds named download queues with independent start/stop controls, daily windows, concurrency limits and safe reassignment. Existing history migrates into Main queue; queue operations preserve partial bytes and manually paused downloads.
+
+Rolling payload quotas persist usage across restarts and resume queued files when allowance renews. Available periods are 24 hours, 7 days and 30 days. In-flight data can slightly exceed the allowance; accounting uses conservative one-minute buckets.
+
+Download networking now supports macOS system proxies, direct connections, explicit HTTP proxies and SOCKS5 endpoints. Credentials and authenticated proxies are not implemented yet. Changes apply to new/resumed transfers.
+
+Website link discovery offers bounded static-page traversal, extension filters, a selectable preview and a saved project. It does not yet render JavaScript pages or mirror websites for offline use.
+
+Browser setup adds Edge and a Firefox development package alongside Chrome. Firefox permanent installation requires Mozilla signing; Safari integration, browser-session authentication, and streaming playlist downloads remain pending. No additional Chrome permissions are requested.
+
+Developer preview: Apple signing and notarization pending.
+
+Stopping and immediately restarting website discovery ignores stale progress and completion callbacks from the canceled scan.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.8.1-preview.1/Flow-3.8.1-preview.1.zip" length="2416352" type="application/octet-stream" sparkle:edSignature="CtXTtRScUoFDTpsUs/incYU8Ed1rChIgVY0xD0xskkwLASslgvukc+J5uci74vUPPhIqjzeDYknkJj+bBEVFCA=="/>
+        </item>
+        <item>
             <title>3.8.0</title>
             <pubDate>Fri, 09 Oct 2026 23:07:14 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -43,23 +67,9 @@ Developer preview: Apple signing and notarization pending.
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.7.0-preview.1/Flow-3.7.0-preview.1.zip" length="2151774" type="application/octet-stream" sparkle:edSignature="xLaHZLYtbqvfpbscvt10nihCXlzJxu+Tg+VCbZcKQG3VO6bsNSXeScOmwojLbf5FP+wAbgWUCv+f1UGf1mNpBw=="/>
         </item>
-        <item>
-            <title>3.6.4</title>
-            <pubDate>Thu, 08 Oct 2026 15:15:57 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>36400</sparkle:version>
-            <sparkle:shortVersionString>3.6.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.6.4</h2><pre>Flow 3.6.4 preserves the filename provided by Chrome, including spaces and file extensions. Browser capture connection repairs and popup status are included.
-
-Developer preview: Apple signing and notarization pending.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.6.4-preview.1/Flow-3.6.4-preview.1.zip" length="2093686" type="application/octet-stream" sparkle:edSignature="ET5oLB9ZgKdxeXRUNTsou6Joj11HftBtscQMVTS/k8SJ/PSSgAa/B7FyVrBgSTVMe5r0wjBIe1Eq3h5LBUs2Bw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: MhyECWHR2eeVPlx1BYGSgkn6r9bsKQfhjgKD+hBP3VS93mRqMIH/i9ht399q4tdgpQ25xlZwyOzA0f+RO5tbBw==
-length: 4958
+edSignature: yfrwUvIynYOlp/1gYoNjzBrEV19zCB7yseD10RyuRlstq/YbtKTjlcTWgvNN+D4BRF0BesjvtHr8BLmRptjHAw==
+length: 6131
 -->
