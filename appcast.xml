@@ -6,6 +6,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.11.1</title>
+            <pubDate>Sat, 10 Oct 2026 17:59:27 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>311001</sparkle:version>
+            <sparkle:shortVersionString>3.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.11.1</h2><pre>Clearer file icons
+
+Compact, consistent file-type icons replace generic system document icons. Android packages have a green Android silhouette; videos, music, archives, images, PDFs, spreadsheets, installers and disk images have distinct symbols and restrained colors. Icons retain their small footprint and adapt to light/dark appearance.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.11.1-preview.1/Flow-3.11.1-preview.1.zip" length="2544856" type="application/octet-stream" sparkle:edSignature="L2KFz+VPQaUzH6Rb+4YJbzi5BZnJYQrJrZ4OYAUW02cVB+TTj3dBH4uShssQXs7WJxTQGJMwwooULCJnJH6ODA=="/>
+        </item>
+        <item>
             <title>3.11.0</title>
             <pubDate>Sat, 10 Oct 2026 11:08:31 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -43,27 +57,9 @@ Chrome/Edge extension 2.4.0 is required for the new option; reload an existing u
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.10.1-preview.1/Flow-3.10.1-preview.1.zip" length="2511283" type="application/octet-stream" sparkle:edSignature="O3reUWUhpaUtASlQ9iVJeux8Jq2YDFnQsuy2AkTN/85N56lOP1R1h2wmtXPqFYaVCM6YHPVcW+lkwv5kuBpuAg=="/>
         </item>
-        <item>
-            <title>3.10.0</title>
-            <pubDate>Sat, 10 Oct 2026 10:58:14 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>310000</sparkle:version>
-            <sparkle:shortVersionString>3.10.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.10.0</h2><pre>Optional browser-login downloads
-
-In the browser extension, paste an HTTPS file link and select “Use browser login for this link”. The browser asks for access to that site. Flow stores only matching session headers in macOS Keychain, never in download history. Headers are stripped on redirects to other origins. Automatic capture continues to use public links.
-
-Authenticated downloads retain their saved bytes if login becomes unavailable. Use “Use next Chrome link” when refreshing an expired authenticated download, then send a fresh link with browser login enabled. Forget login through download actions or Properties. Saved login is deleted when a download completes or is removed.
-
-Chrome/Edge extension 2.4.0 is required for the new option; reload an existing unpacked extension after updating its files.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.10.0-preview.1/Flow-3.10.0-preview.1.zip" length="2509570" type="application/octet-stream" sparkle:edSignature="rAKkfK0svQEuW2qK89cWAWGznYQ2J4YVZAwWQqiBnAFCvstARx1LXR/Jl5qTAXSp03w+uuoQpr4rvMUsqlIzAw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: xdfnHutP6JLR92AMEH+TOQnVqdaYJQuWbdynsKkIYxHgRLl+QfkYhJ40NQRFGcTEmRrmUyL6PdwUjvVstgVeCg==
-length: 5444
+edSignature: 2k2FNpcJOMgQeu2wEw9KyHDxFNgpchpCYFPqeufuXpUYrLK8RHGc1X4gYCJ3tDfKJ+sj2o1+9rf0gZkAtH9WDw==
+length: 4964
 -->
