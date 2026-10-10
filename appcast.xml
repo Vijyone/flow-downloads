@@ -6,6 +6,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.11.2</title>
+            <pubDate>Sat, 10 Oct 2026 18:04:42 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>311002</sparkle:version>
+            <sparkle:shortVersionString>3.11.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.11.2</h2><pre>Fix file-type sorting
+
+“File type” now groups by the actual extension (APK, DMG, MKV, etc.), instead of broad categories that mixed APKs and DMGs together. Each extension group sorts naturally by the displayed filename. The direction arrow reverses the extension groups, keeping names alphabetical within each group.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.11.2-preview.1/Flow-3.11.2-preview.1.zip" length="2544656" type="application/octet-stream" sparkle:edSignature="vI1qpgcLYUycNiiOqVSWN3zAyKtbbvnFoJyJtS/Xkun9geS2lmdXg4Ttr5Gpn7vEmMagzlJY+2GSp+vQJukDAA=="/>
+        </item>
+        <item>
             <title>3.11.1</title>
             <pubDate>Sat, 10 Oct 2026 17:59:27 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -35,31 +49,9 @@ File names sort naturally (File 2 before File 10), using the readable titles sho
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.11.0-preview.1/Flow-3.11.0-preview.1.zip" length="2529585" type="application/octet-stream" sparkle:edSignature="WMj6NThTCr0m5Saf4+1K7FM+Ok00PJIv2RSf4QoKlD8fgEB7oNFcNVtS5eajx1glqQTwmXNQsn9y1C8jeq5eBw=="/>
         </item>
-        <item>
-            <title>3.10.1</title>
-            <pubDate>Sat, 10 Oct 2026 11:04:37 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>310001</sparkle:version>
-            <sparkle:shortVersionString>3.10.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.10.1</h2><pre>Reliable Keychain ownership
-
-The native bridge now hands login headers to Flow itself through a local memory pipe. The app owns and reads its own Keychain records, avoiding access stalls between different executables. No login headers enter arguments, inbox files or history.
-
-Optional browser-login downloads
-
-In the browser extension, paste an HTTPS file link and select “Use browser login for this link”. The browser asks for access to that site. Flow stores only matching session headers in macOS Keychain, never in download history. Headers are stripped on redirects to other origins. Automatic capture continues to use public links.
-
-Authenticated downloads retain their saved bytes if login becomes unavailable. Use “Use next Chrome link” when refreshing an expired authenticated download, then send a fresh link with browser login enabled. Forget login through download actions or Properties. Saved login is deleted when a download completes or is removed.
-
-Chrome/Edge extension 2.4.0 is required for the new option; reload an existing unpacked extension after updating its files.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.10.1-preview.1/Flow-3.10.1-preview.1.zip" length="2511283" type="application/octet-stream" sparkle:edSignature="O3reUWUhpaUtASlQ9iVJeux8Jq2YDFnQsuy2AkTN/85N56lOP1R1h2wmtXPqFYaVCM6YHPVcW+lkwv5kuBpuAg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 2k2FNpcJOMgQeu2wEw9KyHDxFNgpchpCYFPqeufuXpUYrLK8RHGc1X4gYCJ3tDfKJ+sj2o1+9rf0gZkAtH9WDw==
-length: 4964
+edSignature: 8NaA5kkg2x1aoGiln6XIc+KrPhJBjesYxJbKdA3fGg3l4qoiitpkd750GFHhVTLnPoXQifqDzBUKh0ubqjpaAw==
+length: 4187
 -->
