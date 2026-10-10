@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.9.0</title>
+            <pubDate>Sat, 10 Oct 2026 10:46:12 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>39000</sparkle:version>
+            <sparkle:shortVersionString>3.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.9.0</h2><pre>Flow 3.9.0 improves download names and icons while keeping the compact 32-point rows. Readable display titles remove technical release clutter, retain version/year/episode information, and show a small file-format badge. Original filenames remain in tooltips and Properties; saved files are not renamed. Readable titles can be disabled in Settings.
+
+Rows now use cached native macOS file-type icons instead of generic colored outlines.
+
+Each unfinished download can use its own connection count from the existing Actions menu. Changing an active download pauses and resumes its saved ranges with the new target; the global default remains eight.
+
+Browser-login integration is awaiting explicit approval for selected-site cookie access and credential handoff. Streaming playlist capture and the other feature-audit gaps are not claimed as implemented.
+
+Developer preview: Apple signing and notarization pending.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.9.0-preview.1/Flow-3.9.0-preview.1.zip" length="2448431" type="application/octet-stream" sparkle:edSignature="/nJgnBLepIPsg7Hv1EVM42SV2jmDRBGze09sGVNaGA9vNhVq7FTvR2ysedpyURm0B3WZz586UumFLWc9NoIkBg=="/>
+        </item>
+        <item>
             <title>3.8.1</title>
             <pubDate>Fri, 09 Oct 2026 23:10:07 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -51,25 +71,9 @@ Developer preview: Apple signing and notarization pending.
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.8.0-preview.1/Flow-3.8.0-preview.1.zip" length="2412721" type="application/octet-stream" sparkle:edSignature="8pApYvDNpU2AfjtaUJUkt17hp1ND1VTWzqn2zrzBD25035bdNlUlWuiucM8Ko0K0q5dybRNLW3PDBMPpXnOcBg=="/>
         </item>
-        <item>
-            <title>3.7.0</title>
-            <pubDate>Fri, 09 Oct 2026 21:07:20 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>37000</sparkle:version>
-            <sparkle:shortVersionString>3.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.7.0</h2><pre>Flow 3.7.0 fixes GET-only signed download URLs that reject HEAD requests, including APKMirror. It also adds dynamic redistribution of unfinished byte ranges, configurable connection and queue concurrency, download properties with safe filename editing and notes, and text-file link import/export. The default remains eight connections and automatic reductions are disabled.
-
-Chrome extension 2.2.0 adds optional file-type capture filters and site exclusions without additional permissions.
-
-Developer preview: Apple signing and notarization pending.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.7.0-preview.1/Flow-3.7.0-preview.1.zip" length="2151774" type="application/octet-stream" sparkle:edSignature="xLaHZLYtbqvfpbscvt10nihCXlzJxu+Tg+VCbZcKQG3VO6bsNSXeScOmwojLbf5FP+wAbgWUCv+f1UGf1mNpBw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: yfrwUvIynYOlp/1gYoNjzBrEV19zCB7yseD10RyuRlstq/YbtKTjlcTWgvNN+D4BRF0BesjvtHr8BLmRptjHAw==
-length: 6131
+edSignature: ya4jE8LbCEgBizmFvWaBK5OxTV5PLWh1OIH4QcJqmkCNY1xhY2GKtkRyfxahMtQlryk1D/s6sFq8z02PK9tMCg==
+length: 6492
 -->
