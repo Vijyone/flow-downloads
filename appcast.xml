@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FlowDownload</title>
         <item>
+            <title>3.11.0</title>
+            <pubDate>Sat, 10 Oct 2026 11:08:31 +0530</pubDate>
+            <link>https://vijyone.github.io/flow-downloads/</link>
+            <sparkle:channel>preview</sparkle:channel>
+            <sparkle:version>311000</sparkle:version>
+            <sparkle:shortVersionString>3.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Flow 3.11.0</h2><pre>More download sorting options
+
+Sort by file name, file type, date added, size, progress, speed, time remaining, status, priority or storage location, alongside queue order. The compact arrow button switches ascending/descending order. Flow remembers both selections between launches.
+
+File names sort naturally (File 2 before File 10), using the readable titles shown in the list. Unknown sizes/speeds/time estimates stay at the bottom in either direction. Equal values retain queue order. Sorting changes the displayed list without changing download priority or queue scheduling.
+</pre>]]></description>
+            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.11.0-preview.1/Flow-3.11.0-preview.1.zip" length="2529585" type="application/octet-stream" sparkle:edSignature="WMj6NThTCr0m5Saf4+1K7FM+Ok00PJIv2RSf4QoKlD8fgEB7oNFcNVtS5eajx1glqQTwmXNQsn9y1C8jeq5eBw=="/>
+        </item>
+        <item>
             <title>3.10.1</title>
             <pubDate>Sat, 10 Oct 2026 11:04:37 +0530</pubDate>
             <link>https://vijyone.github.io/flow-downloads/</link>
@@ -45,29 +61,9 @@ Chrome/Edge extension 2.4.0 is required for the new option; reload an existing u
 </pre>]]></description>
             <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.10.0-preview.1/Flow-3.10.0-preview.1.zip" length="2509570" type="application/octet-stream" sparkle:edSignature="rAKkfK0svQEuW2qK89cWAWGznYQ2J4YVZAwWQqiBnAFCvstARx1LXR/Jl5qTAXSp03w+uuoQpr4rvMUsqlIzAw=="/>
         </item>
-        <item>
-            <title>3.9.0</title>
-            <pubDate>Sat, 10 Oct 2026 10:46:12 +0530</pubDate>
-            <link>https://vijyone.github.io/flow-downloads/</link>
-            <sparkle:channel>preview</sparkle:channel>
-            <sparkle:version>39000</sparkle:version>
-            <sparkle:shortVersionString>3.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Flow 3.9.0</h2><pre>Flow 3.9.0 improves download names and icons while keeping the compact 32-point rows. Readable display titles remove technical release clutter, retain version/year/episode information, and show a small file-format badge. Original filenames remain in tooltips and Properties; saved files are not renamed. Readable titles can be disabled in Settings.
-
-Rows now use cached native macOS file-type icons instead of generic colored outlines.
-
-Each unfinished download can use its own connection count from the existing Actions menu. Changing an active download pauses and resumes its saved ranges with the new target; the global default remains eight.
-
-Browser-login integration is awaiting explicit approval for selected-site cookie access and credential handoff. Streaming playlist capture and the other feature-audit gaps are not claimed as implemented.
-
-Developer preview: Apple signing and notarization pending.
-</pre>]]></description>
-            <enclosure url="https://github.com/Vijyone/flow-downloads/releases/download/v3.9.0-preview.1/Flow-3.9.0-preview.1.zip" length="2448431" type="application/octet-stream" sparkle:edSignature="/nJgnBLepIPsg7Hv1EVM42SV2jmDRBGze09sGVNaGA9vNhVq7FTvR2ysedpyURm0B3WZz586UumFLWc9NoIkBg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: llI5UQh0BoCApAOfAQPMVXsnZ/SpWspvLPAQgacqzO5Cw4jknBYAy3Roqrz5z36q/0+bZs/DmMNv+VM5bSXuCw==
-length: 5768
+edSignature: xdfnHutP6JLR92AMEH+TOQnVqdaYJQuWbdynsKkIYxHgRLl+QfkYhJ40NQRFGcTEmRrmUyL6PdwUjvVstgVeCg==
+length: 5444
 -->

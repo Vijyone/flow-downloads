@@ -1,6 +1,6 @@
 # Flow for Mac
 
-[Download Flow 3.10.1](https://github.com/Vijyone/flow-downloads/releases/tag/v3.10.1-preview.1)
+[Download Flow 3.11.0](https://github.com/Vijyone/flow-downloads/releases/tag/v3.11.0-preview.1)
 
 macOS 13+, Intel and Apple Silicon. Signed automatic updates via Sparkle.
 
